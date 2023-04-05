@@ -12,3 +12,4 @@ export default function Card({id, name, status, species, gender, origin, image, 
    );
 }
 
+

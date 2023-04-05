@@ -26,6 +26,16 @@ export default function Cards({ characters }) {
   );
 };
 
+/*   {characters.map((character) => (
+         <Card
+          key={character.id}
+          name={character.name}
+          image={character.image}
+          status={character.status}
+          species={character.species}
+          onClose={() => window.alert('Emulamos que se cierra la card')}
+         />
+      ))} */
 
 
 

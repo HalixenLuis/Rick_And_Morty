@@ -3,7 +3,6 @@ import Card from './components/Card.jsx';
 import Cards from './components/Cards.jsx';
 import SearchBar from './components/SearchBar.jsx';
 import characters, { Rick } from './data.js';
-import 'boxicons'
 
 function App() {
    return (
@@ -18,7 +17,7 @@ function App() {
             gender={Rick.gender}
             origin={Rick.origin.name}
             image={Rick.image}
-            onClose={() => window.alert('Emulamos que se cierra la card')}
+            onClose={() => alert('Emulamos que se cierra la card')}
          />
       </div>
    );
